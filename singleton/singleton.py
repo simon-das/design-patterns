@@ -2,13 +2,12 @@ class Singleton:
     __instance = None
 
     def __new__(self):
-        if not self.__instance:
+        if self.__instance is None:
             self.__instance = super().__new__(self)
 
         return self.__instance
 
-s1 = Singleton()
-s2 = Singleton()
+first_instance = Singleton()
+second_instance = Singleton()
 
-print(s1 is s2)
-    
+print(first_instance is second_instance) # True

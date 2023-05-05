@@ -1,7 +1,7 @@
-from abc import abstractmethod
+from abc import ABC, abstractmethod
 
 
-class Animal:
+class Animal(ABC):
     @abstractmethod
     def speak(self):
         pass

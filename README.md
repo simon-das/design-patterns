@@ -8,3 +8,4 @@ There are various types of design patterns, including creational patterns, struc
 This repository contains explanations of the following design patterns.
 1. [Singleton](https://github.com/simon-das/design-patterns/tree/master/singleton)
 2. [Factory](https://github.com/simon-das/design-patterns/tree/master/factory)
+3. [Abstract Factory](https://github.com/simon-das/design-patterns/tree/master/abstract_factory)

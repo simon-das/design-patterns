@@ -110,6 +110,13 @@ Let's see this in action. By creating instances of the concrete factory classes,
         shape2.draw()
         color2.fill()
 
+### Output
+    Drawing a circle
+    Filling with red
+
+    Drawing a rectangle
+    Filling with blue
+
 <br>
 
 ## JavaScript Implementation
@@ -202,3 +209,10 @@ Let's see this in action. By creating instances of the concrete factory classes,
     const color2 = factory2.createColor();
     shape2.draw();
     color2.fill();
+
+### Output
+    Drawing a circle
+    Filling with red
+
+    Drawing a rectangle
+    Filling with blue

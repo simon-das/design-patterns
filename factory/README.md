@@ -1,3 +1,5 @@
+# Factory Pattern
+
 The basic idea behind the Factory pattern is to provide `a centralized point for creating objects where the creation logic can be encapsulated and hidden from the client`. This allows the client to be decoupled from the actual object creation process and makes the code more maintainable and extensible.
 <br> It is used when we have a class or method that creates and returns one of several related objects based on input or some other criteria. By using a factory method or class, we can simply add new classes to the system and make a few changes to the factory code to support the new classes.
 

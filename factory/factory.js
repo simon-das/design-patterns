@@ -31,5 +31,5 @@ class AnimalFactory {
 const dog = AnimalFactory.createAnimal('dog');
 const cat = AnimalFactory.createAnimal('cat');
 
-console.log(dog.speak());
-console.log(cat.speak());
+console.log(dog.speak()); // Output: Woof!
+console.log(cat.speak()); // Output: Meow!

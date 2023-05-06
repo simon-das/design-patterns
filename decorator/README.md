@@ -4,7 +4,7 @@ The Decorator design pattern is a structural design pattern that allows you to `
 
 In simple terms, the Decorator pattern lets you add new features to an existing object dynamically, without having to change its original code. It is like wrapping a gift box with different layers of paper and ribbons to make it more attractive, while keeping the original gift intact.
 
-### A few use cases
+### A Few Use Cases
 1. **Adding features to existing classes**: The Decorator pattern is useful when you want to add functionality to an existing class without modifying its code. You can create a new class that implements the same interface as the original class and adds the desired functionality. This makes it easy to add new features to the class without affecting its existing behavior.
 2. **Dynamic behavior modification**: With the Decorator pattern, you can modify the behavior of an object at runtime. This can be useful in situations where you need to change the behavior of an object based on user input or other external factors.
 3. **Separating concerns**: The Decorator pattern can be used to separate concerns in your code. You can create a separate decorator class for each concern, such as logging or caching, and add them to your objects as needed. This makes it easier to maintain and modify your code.

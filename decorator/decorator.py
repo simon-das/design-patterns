@@ -33,4 +33,4 @@ if __name__ == '__main__':
     sugar_milk_coffee = SugarCoffee(milk_coffee)
     whipped_cream_sugar_milk_coffee = WhippedCreamCoffee(sugar_milk_coffee)
 
-    print(f'Coffee price: {whipped_cream_sugar_milk_coffee.get_price()}') # Output: Coffee price: 3.7
+    print(f'Coffee price: {whipped_cream_sugar_milk_coffee.get_price()}$') # Output: Coffee price: 3.7$

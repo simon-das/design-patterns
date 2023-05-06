@@ -5,7 +5,7 @@ class Command:
 
 
 # Concrete command: turn the light on
-class LightOnCommand:
+class LightOnCommand(Command):
     def __init__(self, light):
         self.light = light
 
@@ -14,7 +14,7 @@ class LightOnCommand:
 
 
 # Concrete command: turn the light off
-class LightOffCommand:
+class LightOffCommand(Command):
     def __init__(self, light):
         self.light = light
 

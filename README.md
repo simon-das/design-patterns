@@ -10,3 +10,4 @@ This repository contains explanations of the following design patterns.
 2. [Factory](https://github.com/simon-das/design-patterns/tree/master/factory)
 3. [Abstract Factory](https://github.com/simon-das/design-patterns/tree/master/abstract_factory)
 4. [Adapter](https://github.com/simon-das/design-patterns/tree/master/adapter)
+5. [Decorator](https://github.com/simon-das/design-patterns/tree/master/decorator)

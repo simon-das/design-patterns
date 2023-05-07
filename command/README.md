@@ -1,6 +1,8 @@
 # Command Pattern
 The Command design pattern is `a behavioral pattern that helps decouple the sender of a request from the receiver by encapsulating a request as an object`. This `allows the sender to issue requests without knowing anything about the receiver, and the receiver can execute the request without knowing anything about the sender or the request itself`. In other words, the pattern enables the creation of objects that represent actions or commands, and these objects can be passed around and executed as needed.
 
+*Basically*, the request is turned into a command and given to the invoker object. The invoker object finds the right object to handle the command, and that object performs the command.
+
 ### A Few Use Cases
 1. **GUI actions**: Command pattern is widely used in GUI (Graphical User Interface) applications. For example, when a user clicks a button, the command object associated with that button is executed.
 2. **Transactional systems**: Command pattern is also used in transactional systems where it is required to keep a record of all executed commands for audit and recovery purposes.

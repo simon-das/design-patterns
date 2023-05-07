@@ -11,3 +11,6 @@ This repository contains explanations of the following design patterns.
 3. [Abstract Factory](https://github.com/simon-das/design-patterns/tree/master/abstract_factory)
 4. [Adapter](https://github.com/simon-das/design-patterns/tree/master/adapter)
 5. [Decorator](https://github.com/simon-das/design-patterns/tree/master/decorator)
+6. [Facade](https://github.com/simon-das/design-patterns/tree/master/facade)
+7. [Observer](https://github.com/simon-das/design-patterns/tree/master/observer)
+8. [Command](https://github.com/simon-das/design-patterns/tree/master/command)
